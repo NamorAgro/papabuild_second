@@ -1,0 +1,32 @@
+.block{
+    width: 100%;
+    padding: 35px;
+}
+.titleblock{
+    padding: 0 15vw;
+}
+.title{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin: 35px 0;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.6vw;
+}
+.block th, .block td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+@media screen and (max-width: 1000px) {
+    .table{
+        font-size: 3vw;
+    }
+    .titleblock{
+        padding: 0 5vw;
+    }
+}

@@ -1,0 +1,42 @@
+.mainheader {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #202020;
+    z-index: 999;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+.phonearea {
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.phonearea p{
+    color: white;
+}
+
+.phone {
+    font-size: 1.6vw;
+    color: white;
+}
+
+.phone:hover {
+    color: rgb(170, 228, 255);
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .phone {
+        font-size: 4vw;
+    }
+}
