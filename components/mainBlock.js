@@ -7,7 +7,7 @@ import arrow from '../public/arrow.png'
 export default function MainBlock() {
     return (
         <section className={styles.section}>
-            <Image src={logo} alt='Website logo.' width={95} height={95} priority />
+            <Image src={logo} alt='Website logo.' width={85} height={85} priority />
             <div>
                 <h1 >
                     Строительство и сварочные работы недорого.

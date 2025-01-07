@@ -3,7 +3,7 @@ import styles from './servicesCard.module.css'
 export default function ServicesCard({ title, list }) {
     return (
         <>
-            <div className={styles.card}>
+            <section className={styles.card}>
                 <h3>
                     {title}
                 </h3>
@@ -16,7 +16,7 @@ export default function ServicesCard({ title, list }) {
                         </li>
                     ))}
                 </ul>
-            </div>
+            </section>
         </>
     );
 }
