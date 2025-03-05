@@ -1,6 +1,5 @@
 import styles from './contactBlock.module.css'
 
-import Link from 'next/link';
 
 export default function Contacts() {
     return (
@@ -15,7 +14,7 @@ export default function Contacts() {
                 </section>
                 <section>
                     <h3>Контакты</h3>
-                    <Link className={styles.phone} href={'tel:+371 22112948'}>+371 22112948</Link>
+                    <a className={styles.phone} href={'tel:+371 22112948'}>+371 22112948</a>
                 </section>
                 <section>
                     <h3>Рабочее время</h3>

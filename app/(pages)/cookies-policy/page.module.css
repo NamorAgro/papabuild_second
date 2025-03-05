@@ -1,0 +1,10 @@
+.page{
+    padding: 20vh 0;
+    padding-inline: 10vw;
+}
+.wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

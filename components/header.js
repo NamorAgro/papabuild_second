@@ -1,9 +1,6 @@
 import Messengers from './messengers';
 
 import styles from './header.module.css'
-import Link from 'next/link';
-
-
 
 import telega from '@/public/telega.png'
 import whatsapp from '@/public/whatsapp.png'
@@ -33,7 +30,7 @@ export default function Header() {
             
             <div className={styles.phonearea}>
                 <p>Александр:</p>
-                <Link className={styles.phone} href={'tel:+371 22112948'}>+371 22112948</Link>
+                <a className={styles.phone} href={'tel:+371 22112948'}>+371 22112948</a>
             </div>
         </header>
     );

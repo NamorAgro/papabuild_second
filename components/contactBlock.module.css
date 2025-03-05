@@ -27,3 +27,11 @@
 .info p {
     text-align: center;
 }
+
+
+@media screen and (max-width:1000px) {
+
+    .phone {
+        font-size: 4vw;
+    }
+}
