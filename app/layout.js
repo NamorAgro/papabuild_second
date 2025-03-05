@@ -18,8 +18,6 @@ export const metadata = {
   description: "Ознакомьтесь с ценами на профессиональные строительные, сварочные и ремонтные работы. Постройка бань, изготовление металлоконструкций, ремонтные услуги — всё по доступным ценам и с гарантией качества",
 };
 
-
-
 export default function RootLayout({ children }) {
 
     return (
@@ -27,7 +25,7 @@ export default function RootLayout({ children }) {
         <body className={`${rubikFont.className}`}>
           <Header />
           {children}
-          {/* <GoogleAnalytics gaId="G-QMSH9NJFB4" /> */}
+          <GoogleAnalytics gaId="G-QMSH9NJFB4" />
           <CookieBanner/>
         </body>
       </html>
