@@ -66,10 +66,12 @@ button{
     font-size: 4vw;
   }
   p{
-    font-size: 4vw;
+    font-size: 4.4vw;
   }
   button{
     font-size: 4vw;
   }
-  
+  td{
+    font-size: 4vw;
+  }
 }
