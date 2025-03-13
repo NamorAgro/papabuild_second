@@ -1,0 +1,9 @@
+.wrapper{
+    height: 100%;
+}
+.iframe{
+    height: 100%;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+}
